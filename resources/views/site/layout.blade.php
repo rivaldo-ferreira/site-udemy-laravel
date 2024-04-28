@@ -17,6 +17,9 @@
 
 <body>
 
+    {{-- navbar --}}
+    @include('partials.navbar');
+
     {{-- conteudo principal --}}
     @yield('content')
 
