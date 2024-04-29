@@ -12,7 +12,7 @@
             <li><a href="{{ route('contato') }}">Contato</a></li>
         </ul>
 
-        {{-- menu mobile ********** NÃO FUNCIONOU ********** --}}
+        {{-- menu mobile --}}
         <ul id="slide-out" class="sidenav">
             <li>
                 <div class="user-view">

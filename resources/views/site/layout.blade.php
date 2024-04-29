@@ -8,7 +8,7 @@
     <title>@yield('title')</title>
 
     {{-- css e javascript --}}
-    @vite(['resources/css/app.css', 'resource/js/app.js'])
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     {{-- css materialize --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -20,7 +20,10 @@
 <body>
 
     {{-- navbar --}}
-    @include('partials.navbar');
+    @include('partials.navbar')
+
+    {{-- slider --}}
+    @include('partials.banner-slide')
 
     {{-- conteudo principal --}}
     @yield('content')
