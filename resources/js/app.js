@@ -5,6 +5,8 @@ $(document).ready(function () {
     $('.modal').modal();
     $('.sidenav').sidenav();
     $('.slider').slider();
+    $('.materialboxed').materialbox();
+    $('.parallax').parallax();
 
     //configuracao jquery mask
     $('#tel').mask('(00)0.0000-0000');
