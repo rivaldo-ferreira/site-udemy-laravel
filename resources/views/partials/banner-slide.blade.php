@@ -27,7 +27,7 @@
     </ul>
 </div>
 
-{{-- janela modal --}}
+{{-- janela modal com formulário --}}
 <div class="modal" id="modal-lead">
     <div class="modal-content">
         <h3 class="flow-text">Preencha o formulário</h3>
